@@ -49,6 +49,7 @@ def main():
     )
 
     matcher = query.oneOf(m1, m2).build()
+    
     for player in stats.matches(matcher):
         print(player)
 
